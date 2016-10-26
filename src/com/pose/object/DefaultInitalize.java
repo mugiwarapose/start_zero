@@ -2,7 +2,7 @@ package com.pose.object;
 /**
  * 
  * @author zhangdd
- *	基本数据类型的初始化
+ *	鍩烘湰绫诲瀷鐨勫垵濮嬪寲
  */
 public class DefaultInitalize {
 	/**
