@@ -2,8 +2,6 @@ package com.pose.base;
 
 import java.util.EmptyStackException;
 import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
 
 /**
  * Created by poseture on 2016/11/6.
@@ -94,16 +92,6 @@ public class FixedCapacityStack<E> implements Iterable<E> {
     @Override
     public Iterator<E> iterator() {
         return new ReserveArrayIterator();
-    }
-
-    @Override
-    public void forEach(Consumer<? super E> action) {
-
-    }
-
-    @Override
-    public Spliterator<E> spliterator() {
-        return null;
     }
 
     private class ReserveArrayIterator implements Iterator{
